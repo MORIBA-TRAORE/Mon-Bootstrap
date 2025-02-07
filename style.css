@@ -1,0 +1,124 @@
+.timeline {
+    position: relative;
+    margin: 2rem 0;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #ddd;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin: 2rem 0;
+  }
+  
+  .timeline-item:nth-child(odd) {
+    text-align: left;
+  }
+  
+  .timeline-item:nth-child(even) {
+    text-align: right;
+  }
+  
+  .timeline-item-content {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    padding: 1rem;
+    width: 40%;
+  }
+  
+  .timeline-item .timeline-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #f8f9fa;
+    border: 2px solid #ddd;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    margin-top: -0px;
+  }
+  
+  .hero {
+    background: url('images/fon1.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .services .icon {
+    font-size: 3rem;
+    color: #ffc107;
+  }
+  
+  .timeline-item .timeline-content {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+  }
+  
+  footer {
+    background: white;
+    color: white;
+    border: 2px solid #ddd;
+    padding: 2rem 0;
+  }
+  form{
+    display: flex;
+  }
+  .container{
+    text-align: center;
+  }
+  .containern{
+    position: relative;
+    display: flex;
+    text-align: center;
+  }
+  .anne{
+    text-align: center;
+  }
+  .moriba{
+    position: relative;
+    display: flex;
+    text-align: center;
+  }
+  
+  .traore{
+    text-align: center;
+  }
+  .mois{
+    text-align: center;
+    position: relative;
+  }
+  input{
+    margin-top: 10px;
+    line-height: 5px;
+    margin-left: -3px;
+  }
+  textarea{
+    margin-top: 10px;
+    margin-left: 3%;
+  }
+  .containerb{
+    background: url(images/fon2.jpeg);
+    text-align: center;
+  }
+  .containerb button{
+    background-color: #ffc107;
+  }
+  .enfant{
+    margin-top: 16px;
+  }
+  .navbar-brand{
+    color: #ffda07;
+    font-style: italic;
+  }
